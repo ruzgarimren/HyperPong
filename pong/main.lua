@@ -17,7 +17,7 @@ PADDLE_SPEED = 200
 function love.load()
     love.graphics.setDefaultFilter('nearest', 'nearest')
 
-    love.window.setTitle('Pong')
+    love.window.setTitle('HyperPong')
 
     math.randomseed(os.time())
 
